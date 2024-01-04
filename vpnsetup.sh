@@ -466,7 +466,7 @@ service fail2ban restart 2>/dev/null
 service ipsec restart 2>/dev/null
 service xl2tpd restart 2>/dev/null
 
-cat << EOF > /tmp/delete_me.txt
+cat << EOF > /root/vpn_config.txt
 
 ================================================
 
@@ -497,7 +497,7 @@ Setup VPN clients: https://git.io/vpnclients
 
 EOF
 
-cat /tmp/delete_me.txt
+cat /root/vpn_config.txt
 
 }
 
